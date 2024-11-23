@@ -17,6 +17,9 @@ const config: Config = {
         roBoTo: ['var(--font-roboto)'],
         reiswar: ['var(--font-reiswar)'],
       },
+      backgroundImage: {
+        'home-banner': 'linear-gradient(78deg, #DA3016 14.21%, #FF7120 89.25%)'
+      }
     },
   },
   plugins: [],

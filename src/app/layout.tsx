@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/header";
 
 const roboto = localFont({
   src: [
@@ -54,7 +55,10 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${reiswar.variable} antialiased`}
       >
-        {children}
+        <Header />
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
