@@ -22,6 +22,7 @@ body {
 
 body{
   font-family: var(--font-roBoTo);
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

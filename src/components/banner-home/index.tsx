@@ -15,7 +15,7 @@ const BannerHomePage = () => {
               loop
               playsInline
           ></video>
-          <section className='w-full h-full lg:max-w-[1200px] 2xl:max-w-[1400px] mx-auto relative'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto relative'>
               <div className='w-full lg:w-[933px] h-[307px] absolute top-1/2 left-0 -translate-y-1/2'>
                   <p className='text-[#fff] text-lg md:text-[32px] lg:leading-[70px] lg:text-[72px] font-medium tracking-[-3.6px] uppercase lg:tracking-[-3.6px]'>Funding and incubating replacement research to extend human lifespan</p>
                   <button className='mt-10'>

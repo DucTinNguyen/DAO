@@ -31,7 +31,7 @@ const navigationData = [
 const Header = () => {
   return (
       <main className='w-full h-[80px] bg-black font-roBoTo'>
-          <section className='w-full h-full lg:max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex items-center justify-between'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto flex items-center justify-between'>
               <div className='flex items-center'>
                   <Image src={icLogo} alt='icon' />s
               </div>
