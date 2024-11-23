@@ -15,14 +15,14 @@ const TitleWrap = ({ title, className }: { title: string, className?: string }) 
 export default TitleWrap
 
 
-export const TitleDoubleWrap = ({ title, subTitle ,className }: { title: string, className?: string, subTitle?: string }) => {
+export const TitleDoubleWrap = ({ title, subTitle, className, titleStyle, subStyle }: { title: string, titleStyle?: string, subStyle?: string ,className?: string, subTitle?: string }) => {
   return (
-    <section className={`${className} text-white h-[170px] relative flex flex-col items-center justify-center`}>
+    <section className={`${className} text-white relative flex flex-col justify-center px-6`}>
       <Image src={bgTitle} alt='' fill />
-      <span className='relative block text-lg md:text-[32px] lg:text-[60px] leading-normal font-roBoTo font-semibold '>
+      <span className={`relative block  text-left font-roBoTo font-semibold ${titleStyle  ? titleStyle : 'text-lg md:text-[32px] lg:text-[50px] leading-normal'}`}>
         {title}
       </span>
-      <span className='relative block text-lg md:text-[32px] lg:text-[60px] leading-normal font-reiswar font-semibold '>
+      <span className={`relative block font-reiswar font-semibold ${subStyle  ? subStyle : 'text-lg md:text-[32px] lg:text-[50px] leading-normal'}`}>
         {subTitle}
       </span>
     </section>

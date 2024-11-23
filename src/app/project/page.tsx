@@ -1,10 +1,7 @@
-import React from 'react'
-import bannerProject from '@icons/banner-project.svg'
-import Image from 'next/image'
 import BannerProject from '@/components/banner-project'
+import Footer from '@/components/footer'
 import ProjectDevelopment from '@/components/project-development'
 import WhyDAO from '@/components/why-dao'
-import Footer from '@/components/footer'
 const Project = () => {
   return (
     
