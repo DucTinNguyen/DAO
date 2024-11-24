@@ -20,11 +20,11 @@ const footerData: FooterSection[] = [
     {
         title: "EXPLORE",
         links: [
-            { title: "About MitosisDAOAO", href: "/about" },
+            { title: "About MitosisDAO", href: "/about" },
             { title: "Science", href: "/science" },
-            { title: "Projects", href: "/projects" },
-            { title: "Contributors", href: "/contributors" },
-            { title: "MITOSIS Token", href: "/token" },
+            { title: "Projects", href: "/project" },
+            { title: "Contributors", href: "/contributor" },
+            { title: "MITOSIS Token", href: "/mitosis-token" },
         ]
     },
     {

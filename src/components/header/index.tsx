@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
       <main className='w-full h-[80px] bg-black font-roBoTo px-4 lg:px-0'>
-          <section className='w-full h-full lg:max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex items-center justify-between'>
+          <section className='w-full h-full lg:max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex items-center justify-between relative z-[51]'>
               <div className='flex items-center'>
                   <Image src={icLogo} alt='icon' />s
               </div>
@@ -81,7 +81,7 @@ const SideBar = ({ isOpen , onClick}: { isOpen: boolean, onClick: ()=> void }) =
 
 
     return (
-        <ul className={`${isOpen ? 'w-full visible' : 'w-0 opacity-0 invisible'} z-50 transition-all ease-linear duration-150 h-full fixed top-20 left-0  bg-[#0A090E] block lg:hidden`}>
+        <ul className={`${isOpen ? 'w-full visible' : 'w-0 opacity-0 invisible'} z-50 transition-all ease-linear duration-150 h-full fixed top-0 pt-20 left-0  bg-[#0A090E] block lg:hidden`}>
             {navigationData.map((item, index) => {
                 return <li onClick={()=>{handleRouter(item.href)}} key={index} className='flex cursor-pointer justify-between items-center gap-3 p-4 border border-[#232226] bg-[#0A090E]'>
                     <p className='text-white text-sm font-normal uppercase text-end'>{item.title}</p>
