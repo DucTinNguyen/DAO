@@ -76,7 +76,9 @@ const Contributors = () => {
                           </div>
                           <div className='flex items-center gap-2'>
                               {item.categories.map((item, index) => {
-                                  return <p key={index} className='rounded-lg w-fit font-medium text-sm text-white py-[6px] px-3 border-[2px] border-[#FF7120] bg-[rgba(255,255,255,0.03)] shadow-[0px_16px_20px_0px_rgba(0,0,0,0.50)]'>{item}</p>
+                                  return <p key={index} className='rounded-lg p-[2px] bg-contributor-card h-[36px] w-fit font-medium text-sm text-white overflow-hidden'>
+                                      <span className='bg-black w-full h-full block px-3 py-[6px] rounded-lg'>{item}</span>
+                                  </p>
                               })}
                           </div>
                           <figure className='w-[200px] h-[200px] mx-auto my-6'>

@@ -21,7 +21,9 @@ const config: Config = {
         'home-banner': 'linear-gradient(78deg, #DA3016 14.21%, #FF7120 89.25%)',
         'hover-project': 'linear-gradient(180deg, rgba(255, 113, 32, 0.40) 0%, rgba(255, 113, 32, 0.00) 109.25%)',
         'life_span': 'linear-gradient(270deg, rgba(255, 113, 32, 0.00) 0%, rgba(255, 113, 32, 0.50) 100%)',
-        'card-apply': 'linear-gradient(156deg, rgba(255, 255, 255, 0.20) -2.51%, rgba(52, 52, 52, 0.00) 87.47%)'
+        'card-apply': 'linear-gradient(156deg, rgba(255, 255, 255, 0.20) -2.51%, rgba(52, 52, 52, 0.00) 87.47%)',
+        'contributor-card': 'linear-gradient(28.96deg, #FF7120 0%, #6ACAD8 91%)',
+        'group-card': 'linear-gradient(28.96deg, #FF7120 0%, #9D137B 91%)'
       }
     },
   },
