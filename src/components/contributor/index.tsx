@@ -65,9 +65,9 @@ const teamMembersData = [
 const Contributors = () => {
   return (
       <main className='w-full h-full py-[40px] lg:py-20 border-b-[1px] border-[#232226] font-roBoTo'>
-          <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
-              <h3 className='text-white text-[36px] font-bold tracking-[-0.72px] uppercase mb-12'>Contributors</h3>
-              <div className='grid grid-cols-3 gap-3'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto px-4 lg:px-0'>
+              <h3 className='text-white text-[32px] lg:text-[36px] font-bold tracking-[-0.72px] uppercase mb-12'>Contributors</h3>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
                   {teamMembersData.map((item, index) => {
                       return <div key={index} className='py-4 px-5 border border-[#232226] hover:border-white transition-all ease-linear duration-150 cursor-pointer'>
                           <div className='flex items-center justify-between mb-4'>

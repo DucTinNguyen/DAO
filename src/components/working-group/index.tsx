@@ -4,10 +4,10 @@ import Image from 'next/image'
 const WorkingGroup = () => {
   return (
       <main className='w-full h-full py-[40px] lg:py-20 border-b-[1px] border-[#232226]'>
-          <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
-              <h3 className='text-white text-[36px] font-bold uppercase tracking-[-0.72px]'>MitosisDAO working group</h3>
-              <button className='my-12'><Image src={btnApply} alt='btn apply' /></button>
-              <div className='grid grid-cols-3 gap-3'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto px-4 lg:px-0'>
+              <h3 className='text-white text-[32px] lg:text-[36px] font-bold uppercase tracking-[-0.72px]'>MitosisDAO working group</h3>
+              <button className='my-5 lg:my-12'><Image src={btnApply} alt='btn apply' /></button>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
                   <div className='py-8 px-5 border border-[#232226] bg-card-apply backdrop-blur-[10px]'>
                       <p className='rounded-lg w-fit font-medium text-xl text-white p-3 border-[2px] border-[#FF7120] bg-[rgba(255,255,255,0.03)] shadow-[0px_16px_20px_0px_rgba(0,0,0,0.50)]'>Deal Flow</p>
                       <p className='text-[rgba(255,255,255,0.70)] mt-6 text-sm font-normal'>The Deal Flow WG identifies and assesses replacement projects and assets that would be aligned with the MitosisDAOAO community objectives. Members of this WG recruit academic researchers while proposing, evaluating, and monitoring prospective projects for funding.</p>
