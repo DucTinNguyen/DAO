@@ -48,12 +48,12 @@ const footerData: FooterSection[] = [
 
 const Footer = () => {
   return (
-      <main className='bg-[#0A090E] border border-[rgba(255,255,255,0.08)] font-roBoTo'>
-          <section className='w-full h-full lg:max-w-[1200px] mx-auto py-[60px] flex justify-between'>
+      <main className='bg-[#0A090E] border border-[rgba(255,255,255,0.08)] font-roBoTo px-4 lg:px-0'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto py-[60px] flex flex-col gap-3 lg:flex-row lg:justify-between'>
               <figure className='w-[180px] h-20'>
                   <Image src={icLogo} alt='' className='w-full h-full'/>
               </figure>
-              <div className="w-full lg:w-[600px] grid grid-cols-1 md:grid-cols-3 gap-3">
+              <div className="w-full lg:w-[600px] grid grid-cols-2 md:grid-cols-3 gap-3">
                   {footerData.map((section) => (
                       <div key={section.title} className="space-y-6">
                           <h2 className="text-[rgba(255,255,255,0.60)] text-sm font-normal uppercase">
@@ -70,7 +70,7 @@ const Footer = () => {
                   ))}
               </div>
           </section>
-          <p className='py-10 border-t-[1px] border-[rgba(255,255,255,0.08)] text-[rgba(255,255,255,0.6)] text-sm text-center'>@2024 MitosisDAO. All rights reserved. </p>
+          <p className=' py-4 lg:py-10 border-t-[1px] border-[rgba(255,255,255,0.08)] text-[rgba(255,255,255,0.6)] text-sm text-center'>@2024 MitosisDAO. All rights reserved. </p>
       </main>
   )
 }

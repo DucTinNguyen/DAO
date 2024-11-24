@@ -5,7 +5,7 @@ const TitleWrap = ({ title, className }: { title: string, className?: string }) 
   return (
     <section className={`${className} text-white uppercase h-[70px] relative flex items-center justify-center`}>
       <Image src={bgTitle} alt='' fill />
-      <span className='relative block text-lg md:text-[32px] lg:text-[60px] leading-normal font-reiswar font-semibold '>
+      <span className='relative block text-[32px] lg:text-[60px] leading-normal font-reiswar font-semibold '>
         {title}
       </span>
     </section>

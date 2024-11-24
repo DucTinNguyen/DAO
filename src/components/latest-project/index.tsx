@@ -11,10 +11,10 @@ import arrow from '@icons/arrow.svg'
 
 const LatestProject = () => {
   return (
-      <main className='w-full h-[697px] bg-[#0A090E]'>
-          <section className='w-full h-full lg:max-w-[1200px] mx-auto py-[60px]'>
-              <TitleWrap title='Latest Project' className='w-[560px]'/>
-              <div className='flex h-[444px] mt-12'>
+      <main className='w-full h-full lg:h-[697px] bg-[#0A090E]'>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto py-[60px] px-4 lg:px-0'>
+              <TitleWrap title='Latest Project' className='w-[300px] mx-auto lg:mx-0 lg:w-[560px]'/>
+              <div className='grid grid-cols-1 md:grid-cols-2 h-full lg:h-[444px] mt-12'>
                   <Project img={pr1}/>
                   <Project img={pr2} />
               </div>
@@ -28,7 +28,7 @@ export default LatestProject
 
 const Project = ({ img }: {img: StaticImageData}) => {
     return (
-        <div className='relative group cursor-pointer'>
+        <div className='relative group cursor-pointer max-w-full'>
             <div className='absolute top-0 left-0 w-full h-full bg-hover-project opacity-0 group-hover:opacity-100 transition-all ease-linear duration-150'></div>
             <div className='relative'>
                 <div className='flex-1 p-10 border border-[#232226] relative'>
@@ -37,7 +37,7 @@ const Project = ({ img }: {img: StaticImageData}) => {
                     <Image src={ar3} alt='' className='absolute bottom-4 right-4' />
                     <Image src={ar4} alt='' className='absolute bottom-4 left-4' />
 
-                    <figure className='w-[560px] h-[308px]'>
+                    <figure className='w-full lg:w-full lg:h-[308px]'>
                         <Image src={img} alt='pr' />
                     </figure>
                 </div>
