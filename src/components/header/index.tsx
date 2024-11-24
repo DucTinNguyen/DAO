@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import icLogo from '@icons/logo.svg'
+import icLogo from '@icons/logoApp.svg'
 import Image from 'next/image'
 import Link from 'next/link';
 import btnDiscord from '@icons/btn-discord.svg'

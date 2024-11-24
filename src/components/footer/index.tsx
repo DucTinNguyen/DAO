@@ -1,5 +1,5 @@
 import React from 'react'
-import icLogo from '@icons/logo.svg'
+import icLogo from '@icons/logoApp.svg'
 import Image from 'next/image'
 import Link from 'next/link';
 import arrow from '@icons/arrow.svg'
