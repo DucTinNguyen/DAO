@@ -11,9 +11,9 @@ const phases = [
 const DaoGovernance = () => {
   return (
     <main className='w-full h-full py-[40px] border-b-[1px] border-[#232226]'>
-        <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
-            <TitleDoubleWrap title='DAO' subTitle='Governance' titleStyle='text-[32px] font-semibold' subStyle='text-[32px] font-semibold' className='w-[260px]' />
-              <div className='flex mt-20'>
+        <section className='w-full h-full lg:max-w-[1200px] mx-auto px-4 lg:px-0'>
+            <TitleDoubleWrap title='DAO' subTitle='Governance' titleStyle='text-[32px] font-semibold' subStyle='text-[32px] font-semibold' className='w-[250px] lg:w-[260px]' />
+              <div className='grid grid-cols-1 md:grid-cols-3 mt-20'>
                   {phases.map((item, index) => {
                       return <div key={index}>
                           <p className='py-4 px-6 w-fit text-[#FF7120] text-2xl font-semibold font-reiswar border border-[#232226]'>Phase {index + 1}</p>

@@ -4,7 +4,7 @@ import icLogo from '@icons/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link';
 import btnDiscord from '@icons/btn-discord.svg'
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import icHamburger from '@icons/icBar.svg'
 import arrow from '@icons/arrow.svg'
 import icClose from '@icons/close.svg'
@@ -63,18 +63,27 @@ const Header = () => {
                   {!isOpen ? <Image src={icHamburger} alt=''/> : <Image src={icClose} alt=''/>}
             </figure>
           </section>
-          <SideBar isOpen={isOpen} />
+          <SideBar isOpen={isOpen} onClick={handleClick} />
       </main>
   )
 }
 
 export default Header
 
-const SideBar = ({isOpen}: {isOpen: boolean}) => {
+const SideBar = ({ isOpen , onClick}: { isOpen: boolean, onClick: ()=> void }) => {
+    
+    const router = useRouter();
+
+    const handleRouter = (href: string) => {
+        router.push(href);
+        onClick()
+    }
+
+
     return (
         <ul className={`${isOpen ? 'w-full visible' : 'w-0 opacity-0 invisible'} z-50 transition-all ease-linear duration-150 h-full fixed top-20 left-0  bg-[#0A090E] block lg:hidden`}>
             {navigationData.map((item, index) => {
-                return <li key={index} className='flex justify-between items-center gap-3 p-4 border border-[#232226] bg-[#0A090E]'>
+                return <li onClick={()=>{handleRouter(item.href)}} key={index} className='flex cursor-pointer justify-between items-center gap-3 p-4 border border-[#232226] bg-[#0A090E]'>
                     <p className='text-white text-sm font-normal uppercase text-end'>{item.title}</p>
                     <Image src={arrow} alt='arrow' />
                 </li>
