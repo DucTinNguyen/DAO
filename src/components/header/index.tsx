@@ -46,9 +46,9 @@ const Header = () => {
   return (
       <main className='w-full h-[80px] bg-black font-roBoTo px-4 lg:px-0'>
           <section className='w-full h-full lg:max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex items-center justify-between relative z-[51]'>
-              <div className='flex items-center'>
+              <Link href={'/'} className='flex items-center'>
                   <Image src={icLogo} alt='icon' />s
-              </div>
+              </Link>
             {/* desktop */}
               <div className='hidden lg:flex items-center invisible lg:visible justify-center grow'>
                   {navigationData.map((item, index) => {
