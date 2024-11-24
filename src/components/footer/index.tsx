@@ -50,9 +50,9 @@ const Footer = () => {
   return (
       <main className='bg-[#0A090E] border border-[rgba(255,255,255,0.08)] font-roBoTo px-4 lg:px-0'>
           <section className='w-full h-full lg:max-w-[1200px] mx-auto py-[60px] flex flex-col gap-3 lg:flex-row lg:justify-between'>
-              <figure className='w-[180px] h-20'>
+              <Link href={'/'} className='w-[180px] h-20'>
                   <Image src={icLogo} alt='' className='w-full h-full'/>
-              </figure>
+              </Link>
               <div className="w-full lg:w-[600px] grid grid-cols-2 md:grid-cols-3 gap-3">
                   {footerData.map((section) => (
                       <div key={section.title} className="space-y-6">
