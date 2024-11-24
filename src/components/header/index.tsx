@@ -59,7 +59,7 @@ const Header = () => {
                   <Image src={btnDiscord} className='w-full h-f' alt='btn icon discord'/>
               </button>
               {/* mobile */}
-              <figure onClick={() => { handleClick() }}>
+              <figure className='block lg:hidden' onClick={() => { handleClick() }}>
                   {!isOpen ? <Image src={icHamburger} alt=''/> : <Image src={icClose} alt=''/>}
             </figure>
           </section>

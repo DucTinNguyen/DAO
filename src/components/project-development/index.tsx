@@ -10,10 +10,10 @@ import arrow from '@icons/arrow.svg'
 const ProjectDevelopment = () => {
   return (
       <main className='w-full h-full py-10 lg:py-[80px] border-b-[1px] border-[#232226]'>
-          <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
-              <h2 className='text-white text-[60px] font-reiswar font-semibold tracking-[-1.28px] leading-[60px]'>Projects <br/>
+          <section className='w-full h-full lg:max-w-[1200px] mx-auto px-4 lg:px-0'>
+              <h2 className='text-white text-[32px] lg:text-[60px] font-reiswar font-semibold tracking-[-1.28px] leading-[60px]'>Projects <br/>
                   in Development</h2>
-              <div className='flex h-[444px] mt-12'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:h-[444px] mt-12'>
                   <Project img={pr1} />
                   <Project img={pr2} />
               </div>
@@ -35,7 +35,7 @@ const Project = ({ img }: { img: StaticImageData }) => {
                     <Image src={ar3} alt='' className='absolute bottom-4 right-4' />
                     <Image src={ar4} alt='' className='absolute bottom-4 left-4' />
 
-                    <figure className='w-[560px] h-[308px]'>
+                    <figure className='w-full lg:w-[560px] lg:h-[308px]'>
                         <Image src={img} alt='pr' />
                     </figure>
                 </div>

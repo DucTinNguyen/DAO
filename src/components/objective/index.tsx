@@ -1,18 +1,15 @@
-import Image, { StaticImageData } from 'next/image'
-import React from 'react'
+import arRight from '@icons/ar-right.svg'
 import ar1 from '@icons/ar1.svg'
 import ar2 from '@icons/ar2.svg'
 import ar3 from '@icons/ar3.svg'
 import ar4 from '@icons/ar4.svg'
-import pr1 from '@images/pr1.png'
-import arrow from '@icons/arrow.svg'
-import arRight from '@icons/ar-right.svg'
 import ob1 from '@images/ob1.png'
 import ob2 from '@images/ob2.png'
 import ob3 from '@images/ob3.png'
 import ob4 from '@images/ob4.png'
 import ob5 from '@images/ob5.png'
 import ob6 from '@images/ob6.png'
+import Image, { StaticImageData } from 'next/image'
 
 interface Project {
     title: string;
@@ -73,8 +70,8 @@ const projectsData: Project[] = [
 const Objectives = () => {
   return (
     <main className='w-full h-full py-[60px]'>
-        <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
-            <h2 className='text-white font-bold text-[36px] uppercase leading-normal mb-12'>MitosisDAO objectives</h2>
+        <section className='w-full h-full lg:max-w-[1200px] mx-auto px-4 lg:px-0'>
+            <h2 className='text-white font-bold text-[32px] lg:text-[36px] uppercase leading-normal mb-12'>MitosisDAO objectives</h2>
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-4'>
                   {projectsData.map((item, index) => {
                       return <ObjectiveItem key={index} title={item.title} description={item.description} img={item.img} />
@@ -90,7 +87,7 @@ export default Objectives
 
 const ObjectiveItem = ({title, description, img}: Project) => {
     return (
-        <div className='relative group cursor-pointer h-[710px]'>
+        <div className='relative group cursor-pointer'>
             <div className='absolute top-0 left-0 w-full h-full bg-hover-project opacity-0 group-hover:opacity-100 transition-all ease-linear duration-150'></div>
             <div className='relative border-[1px] border-[#232226] h-[720px]'>
                 <div className='flex-1 p-10 border border-[#232226] group-hover:border-transparent relative'>
@@ -99,17 +96,17 @@ const ObjectiveItem = ({title, description, img}: Project) => {
                     <Image src={ar3} alt='' className='absolute bottom-4 right-4' />
                     <Image src={ar4} alt='' className='absolute bottom-4 left-4' />
 
-                    <figure className='w-full h-[308px] overflow-hidden'>
+                    <figure className='w-full h-[300px] lg:h-[308px] overflow-hidden'>
                         <Image src={img} alt='pr' className='w-full h-full' objectFit='cover' objectPosition='center' />
                     </figure>
                 </div>
                 <div className='p-4 border-t-[1px] border-t-[#232226] group-hover:border-transparent'>
-                    <h3 className='text-white text-xl font-medium uppercase tracking-[-1px] mb-3'>{title}</h3>
+                    <h3 className='text-white text-base lg:text-xl font-medium uppercase tracking-[-1px] mb-3'>{title}</h3>
                     <ul className='flex flex-col gap-3'>
                         {description.map((item, index) => {
                             return <li className='flex gap-3 items-start' key={index}>
                                 <Image src={arRight} alt='' className='mt-2' />
-                                <span className='text-[rgba(255,255,255,0.70)] text-lg font-normal tracking-[-0.9px]'>{item}</span>
+                                <span className='text-[rgba(255,255,255,0.70)] text-sm lg:text-lg font-normal tracking-[-0.9px]'>{item}</span>
                             </li>
                         })}
                     </ul>

@@ -19,10 +19,10 @@ export const TitleDoubleWrap = ({ title, subTitle, className, titleStyle, subSty
   return (
     <section className={`${className} text-white relative flex flex-col justify-center px-6`}>
       <Image src={bgTitle} alt='' fill />
-      <span className={`relative block  text-left font-roBoTo font-semibold ${titleStyle  ? titleStyle : 'text-lg md:text-[32px] lg:text-[50px] leading-normal'}`}>
+      <span className={`relative block  text-left font-roBoTo font-semibold ${titleStyle  ? titleStyle : 'text-[32px] lg:text-[50px] leading-normal'}`}>
         {title}
       </span>
-      <span className={`relative block font-reiswar font-semibold ${subStyle  ? subStyle : 'text-lg md:text-[32px] lg:text-[50px] leading-normal'}`}>
+      <span className={`relative block font-reiswar font-semibold ${subStyle  ? subStyle : 'text-[32px] lg:text-[50px] leading-normal'}`}>
         {subTitle}
       </span>
     </section>
