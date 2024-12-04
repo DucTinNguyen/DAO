@@ -40,10 +40,22 @@ const reiswar = localFont({
   weight: "500",
 });
 
+// export const metadata: Metadata = {
+//   title: "Replacement for Lifespan Extension",
+//   description: "Funding and incubating replacement research to extend human lifespan",
+// };
+
 export const metadata: Metadata = {
-  title: "Replacement for Lifespan Extension",
-  description: "Funding and incubating replacement research to extend human lifespan",
+  // metadataBase: new URL("https://www.cellprotocol.science"),
+  title: "Longevity biotechnology by replacement",
+  description: "Supporting research to develop alternatives extending human longevity",
+  openGraph: {
+    title: "Longevity biotechnology by replacement",
+    description: "Supporting research to develop alternatives extending human longevity",
+    // url: new URL("https://www.cellprotocol.science")
+  }
 };
+
 
 export default function RootLayout({
   children,
