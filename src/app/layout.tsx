@@ -46,13 +46,13 @@ const reiswar = localFont({
 // };
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("https://www.cellprotocol.science"),
+  metadataBase: new URL("https://www.mitosisdao.science"),
   title: "MitosisDAO",
   description: "Supporting research to develop alternatives extending human longevity",
   openGraph: {
     title: "MitosisDAO",
     description: "Supporting research to develop alternatives extending human longevity",
-    // url: new URL("https://www.cellprotocol.science")
+    url: new URL("https://www.mitosisdao.science")
   }
 };
 
