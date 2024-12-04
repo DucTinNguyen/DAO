@@ -18,26 +18,16 @@ const Replacement = () => {
               <div className='relative w-full lg:w-[508px] h-full'>
                   <Image src={lifeSpan} className='w-full h-full' fill alt='' />
                   <div className='flex flex-col justify-between h-[300px] lg:h-full'>
-                      <div className='relative hidden lg:block'>
-                          <h3 className='text-white text-[48px] font-bold uppercase'>Longevity biotechnology</h3>
-                          <h3 className='text-white text-[48px] font-bold uppercase tracking-[-0.96px] bg-life_span leading-[56px]'>
-                              <p className='relative w-fit lg:p-2 h-full'>
+                      <div className='relative'>
+                          <h3 className='text-white text-[38px] lg:text-[48px] font-bold uppercase'>Longevity biotechnology</h3>
+                          <h3 className='text-white text-[38px] lg:text-[48px] font-bold uppercase tracking-[-0.96px] bg-life_span leading-[56px]'>
+                              <p className='relative w-fit p-2 h-full'>
                                   by replacement
                                   <Image src={vt1} alt='' className='absolute top-0 left-0' />
                                   <Image src={vt4} alt='' className='absolute top-0 right-0' />
                                   <Image src={vt2} alt='' className='absolute bottom-0 right-0' />
                                   <Image src={vt3} alt='' className='absolute bottom-0 left-0' />
                               </p>
-                          </h3>
-                      </div>
-                      <div className='relative block lg:hidden'>
-                          <h3 className='text-white text-[48px] font-bold uppercase tracking-[-2.4px]'>Replacement for Lifespan</h3>
-                          <h3 className='text-white text-[48px] font-bold uppercase tracking-[-2.4px] bg-life_span leading-[56px] relative w-fit px-2'>
-                              <Image src={vt1} alt='' className='absolute top-0 left-0' />
-                              <Image src={vt4} alt='' className='absolute top-0 right-0' />
-                              <Image src={vt2} alt='' className='absolute bottom-0 right-0' />
-                              <Image src={vt3} alt='' className='absolute bottom-0 left-0' />
-                              <span className='relative'> Extension</span>
                           </h3>
                       </div>
                       <div className='flex justify-between relative'>
