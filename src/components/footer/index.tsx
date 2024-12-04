@@ -20,7 +20,7 @@ const footerData: FooterSection[] = [
     {
         title: "EXPLORE",
         links: [
-            { title: "About MitosisDAO", href: "/about" },
+            { title: "About MitosisDAO", href: "/" },
             { title: "Science", href: "/science" },
             { title: "Projects", href: "/project" },
             { title: "Contributors", href: "/contributor" },

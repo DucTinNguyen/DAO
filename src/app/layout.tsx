@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/header";
+import Head from "next/head";
 
 const roboto = localFont({
   src: [
@@ -64,6 +65,39 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <title>MitosisDAO</title>
+        <meta
+          name="description"
+          content="Supporting research to develop alternatives extending human longevity"
+        />
+        <meta property="og:image" content="./opengraph-image.jpg"></meta>
+        <meta property="og:url" content="https://www.mitosisdao.science"></meta>
+        <meta property="og:title" content="MitosisDAO"></meta>
+        <meta property="og:site_name" content="https://www.mitosisdao.science"></meta>
+        <meta
+          property="og:description"
+          content="Supporting research to develop alternatives extending human longevity"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.ico"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.ico"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.ico"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body
         className={`${roboto.variable} ${reiswar.variable} antialiased`}
       >
