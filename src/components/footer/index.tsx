@@ -40,7 +40,7 @@ const footerData: FooterSection[] = [
     {
         title: "COMMUNITY",
         links: [
-            { title: "Join our community", href: "https://twitter.com/mitosisdao", external: true },
+            { title: "Join our community", href: "https://t.me/MitosisDAO", external: true },
         ]
     }
 ];

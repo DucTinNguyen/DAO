@@ -8,6 +8,7 @@ import vt4 from '@icons/vt4.svg'
 import rectangle from '@icons/rectangle.svg'
 import arDownRight from '@icons/arrow-down-right.svg'
 import arUp from '@icons/ar-up.svg'
+import Link from 'next/link'
 
 const list = ['Body regeneration through embryo engineering: Creating host vessels with neural transplant capability.', 'Neural regeneration through stem cell engineering: Growing new brain tissue progressively.', 'Lab-grown youth replaces aging biology - complete regeneration from cells to systems']
 const Replacement = () => {
@@ -54,10 +55,12 @@ const Replacement = () => {
                           </li>
                       })}
                   </ul>
-                  <button className='w-4/5 lg:w-[302px] py-2 flex items-center justify-center bg-[#FF7120] gap-2'>
-                      <span className='text-[#0A090E] text-base font-medium'>LPF REPLACEMENT ROADMAP</span>
-                      <Image src={arUp} alt='arrow up'/>
-                  </button>
+                  <Link href={'https://www.longbiofellowship.org/roadmap'} target='_blank'>
+                      <button className='w-4/5 lg:w-[302px] py-2 flex items-center justify-center bg-[#FF7120] gap-2'>
+                          <span className='text-[#0A090E] text-base font-medium'>LPF REPLACEMENT ROADMAP</span>
+                          <Image src={arUp} alt='arrow up' />
+                      </button>
+                  </Link>
               </div>
           </section>
     </main>

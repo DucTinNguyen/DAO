@@ -3,6 +3,24 @@ import arrowHover from '@icons/arrow-hover.svg'
 
 import Image from 'next/image'
 import TitleWrap from '../title'
+import Link from 'next/link'
+
+const mission = [
+    {
+        title: 'BIODAO Bible',
+        link: 'https://docs.molecule.to/bio.xyz'
+    },
+    {
+        title: 'BioDAOs are Community-Owned Research Translation Engines, Not Investment DAOs',
+        link: 'https://www.bio.xyz/blog-posts/biodaos-are-community-owned-research-translation-engines-not-investment-daos'
+    },
+    {
+        title: 'Decentralized Science (DeSci)',
+        link: 'https://ethereum.org/en/desci'
+    }
+]
+
+
 const OurMission = () => {
     return (
         <main className='w-full h-full lg:h-[600px] bg-[#0A090E] font-roBoTo relative'>
@@ -16,21 +34,15 @@ const OurMission = () => {
                     </div>
                     <div className='w-full lg:w-[402px] 2xl:w-[513px] h-full flex items-end font-roBoTo'>
                         <ul className='w-full'>
-                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
-                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'>MitosisDAO Bible</p>
-                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
-                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
-                            </li>
-                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
-                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'> BioDAOs are Community-Owned Research Translation Engines, Not Investment DAOs</p>
-                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
-                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
-                            </li>
-                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
-                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'> Decentralized Science (DeSci) </p>
-                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
-                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
-                            </li>
+                            {mission.map((item, index) => {
+                                return <Link key={index} href={item.link} target='_blank'>
+                                    <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
+                                        <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'>{item.title}</p>
+                                        <Image src={arrow} alt='arrow' className='group-hover:hidden' />
+                                        <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
+                                    </li>
+                                </Link>
+                            })}
                         </ul>
                     </div>
                 </section>

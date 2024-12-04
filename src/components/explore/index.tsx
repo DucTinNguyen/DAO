@@ -2,6 +2,7 @@ import React from 'react'
 import imgExplore from '@images/explore.png'
 import Image from 'next/image'
 import btnExplore from '@images/btnExplore.svg'
+import Link from 'next/link'
 const Explore = () => {
   return (
     <main className='w-full h-full lg:h-[431px] font-roBoTo px-4 lg:px-4'>
@@ -14,9 +15,9 @@ const Explore = () => {
                       <p className='text-white text-2xl font-medium uppercase'>Substitute old parts with youth.</p>
                       <p className='text-[rgba(255,255,255,0.70)] mt-3 text-base font-normal'>Lab-grown tissue replaces aged components. Engineering solves aging through replacement.</p>
                   </div>
-                  <button className='mt-5 lg:mt-0'>
+                  <Link href={'/science'} className='mt-5 lg:mt-0'>
                       <Image src={btnExplore} alt=''/>
-                  </button>
+                  </Link>
               </div>
           </section>
     </main>

@@ -1,8 +1,9 @@
-import joinDiscord from '@icons/join-discord.svg';
+import btnCommunity from "@icons/btn-community.svg";
 import Image from 'next/image';
 import { TitleDoubleWrap } from '../title';
 import lifeSpan from '@icons/lifespan.svg'
 import bannerProject from "@icons/texture.svg";
+import Link from 'next/link';
 
 const BannerContributor = () => {
   return (
@@ -17,9 +18,15 @@ const BannerContributor = () => {
                       <p className="text-[rgba(255,255,255,0.70)] text-lg font-normal">
                           MitosisDAO unites scientists, entrepreneurs, and innovators advancing replacement research through decentralized collaboration. Join our mission to transform regenerative medicine
                       </p>
-                      <button className='mt-5 md:mt-10 md:mx-auto w-fit lg:mx-0 block'>
-                          <Image src={joinDiscord} alt="" />
-                      </button>
+                      <Link href={"https://t.me/MitosisDAO"} target="_blank">
+                          <button className='mt-5 md:mt-10 md:mx-auto w-fit lg:mx-0 block'>
+                              <Image
+                                  src={btnCommunity}
+                                  className="w-full"
+                                  alt="btn icon discord"
+                              />
+                          </button>
+                      </Link>
                   </div>
               </div>
               
