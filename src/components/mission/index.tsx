@@ -1,4 +1,6 @@
 import arrow from '@icons/arrow.svg'
+import arrowHover from '@icons/arrow-hover.svg'
+
 import Image from 'next/image'
 import TitleWrap from '../title'
 const OurMission = () => {
@@ -14,17 +16,20 @@ const OurMission = () => {
                     </div>
                     <div className='w-full lg:w-[402px] 2xl:w-[513px] h-full flex items-end font-roBoTo'>
                         <ul className='w-full'>
-                            <li className='flex justify-end items-center gap-3 p-4 border border-[#232226]'>
-                                <p className='text-white text-sm font-normal uppercase text-end'>MitosisDAO Bible</p>
-                                <Image src={arrow} alt='arrow' />
+                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
+                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'>MitosisDAO Bible</p>
+                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
+                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
                             </li>
-                            <li className='flex justify-end items-center gap-3 p-4 border border-[#232226]'>
-                                <p className='text-white text-sm font-normal uppercase text-end'> BioDAOs are Community-Owned Research Translation Engines, Not Investment DAOs</p>
-                                <Image src={arrow} alt='arrow' />
+                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
+                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'> BioDAOs are Community-Owned Research Translation Engines, Not Investment DAOs</p>
+                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
+                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
                             </li>
-                            <li className='flex justify-end items-center gap-3 p-4 border border-[#232226]'>
-                                <p className='text-white text-sm font-normal uppercase text-end'> Decentralized Science (DeSci) </p>
-                                <Image src={arrow} alt='arrow' />
+                            <li className='flex cursor-pointer justify-end hover:bg-[#FF7120] group items-center gap-3 transition-all ease-linear duration-150 p-4 border border-[#232226]'>
+                                <p className='text-white group-hover:text-[#0A090E] text-sm font-normal uppercase text-end'> Decentralized Science (DeSci) </p>
+                                <Image src={arrow} alt='arrow' className='group-hover:hidden' />
+                                <Image src={arrowHover} alt='arrow' className='hidden group-hover:block' />
                             </li>
                         </ul>
                     </div>

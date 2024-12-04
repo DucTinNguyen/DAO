@@ -90,13 +90,13 @@ const ObjectiveItem = ({title, description, img}: Project) => {
         <div className='relative group cursor-pointer'>
             <div className='absolute top-0 left-0 w-full h-full bg-hover-project opacity-0 group-hover:opacity-100 transition-all ease-linear duration-150'></div>
             <div className='relative border-[1px] border-[#232226] h-[720px]'>
-                <div className='flex-1 p-10 border border-[#232226] group-hover:border-transparent relative'>
+                <div className='flex-1 p-10 border border-[#232226] group group-hover:border-transparent relative'>
                     <Image src={ar1} alt='' className='absolute top-4 left-4' />
                     <Image src={ar2} alt='' className='absolute top-4 right-4' />
                     <Image src={ar3} alt='' className='absolute bottom-4 right-4' />
                     <Image src={ar4} alt='' className='absolute bottom-4 left-4' />
 
-                    <figure className='w-full h-[300px] lg:h-[308px] overflow-hidden'>
+                    <figure className='w-full h-[300px] lg:h-[308px] overflow-hidden border-[#FF7120] transition-all ease-linear duration-100'>
                         <Image src={img} alt='pr' className='w-full h-full' objectFit='cover' objectPosition='center' />
                     </figure>
                 </div>
