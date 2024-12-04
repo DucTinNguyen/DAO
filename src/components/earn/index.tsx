@@ -7,7 +7,7 @@ const Earn = () => {
           <section className='w-full h-full lg:max-w-[1200px] mx-auto'>
               <TitleDoubleWrap title='Earn' subTitle='MISTOSIS' titleStyle='text-[32px] font-semibold text-center' className='w-[190px] mx-auto' subStyle='text-[32px]' />
               <p className='text-[rgba(255,255,255,0.70)] text-lg font-medium w-full lg:w-[776px] mx-auto text-center mt-6'>
-                  Working group members can earn governance power in MitosisDAOAO via MITOSIS by contributing their time and effort in the DAO. This can include sourcing, evaluating and incubating replacement research projects, forming partnerships, social media/community management, and much more.
+                  Members earn MITO tokens through active contributions: sourcing projects, evaluating research, building partnerships, and managing community growth. Governance power scales with participation.
               </p>
           </section>
       </main>

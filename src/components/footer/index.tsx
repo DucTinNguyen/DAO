@@ -30,18 +30,17 @@ const footerData: FooterSection[] = [
     {
         title: "INFO",
         links: [
-            { title: "Imprint", href: "/imprint" },
-            { title: "MITOSIS Token Disclaimer", href: "/token-disclaimer" },
-            { title: "Privacy Policy", href: "/privacy" },
-            { title: "Contributors", href: "/contributors" },
-            { title: "MITOSIS Token", href: "/token" },
+            { title: "Token", href: "#" },
+            { title: "PUMP.FUN", href: "#" },
+            { title: "DEXSCREENER", href: "#" },
+            { title: "SOLSCAN", href: "#" },
+            { title: "BUY", href: "#" },
         ]
     },
     {
         title: "COMMUNITY",
         links: [
-            { title: "Follow us on X", href: "https://twitter.com/mitosisdao", external: true },
-            { title: "Join our Discord", href: "https://discord.gg/mitosisdao", external: true },
+            { title: "Join our community", href: "https://twitter.com/mitosisdao", external: true },
         ]
     }
 ];

@@ -1,4 +1,4 @@
-import btnDiscord from '@icons/Button.svg'
+import btnCommunity from '@icons/btn-community.svg'
 import Image from 'next/image'
 import PartnerHome from '../partner-home'
 
@@ -16,10 +16,10 @@ const BannerHomePage = () => {
               playsInline
           ></video>
           <section className='w-full h-full lg:max-w-[1200px] mx-auto relative'>
-              <div className='w-full lg:w-[933px] h-[307px] absolute top-[100px] md:top-1/2 left-0 md:-translate-y-1/2'>
-                  <p className='text-[#fff] text-[38px] lg:leading-[70px] lg:text-[72px] font-medium tracking-[-3.6px] uppercase lg:tracking-[-3.6px]'>Funding and incubating replacement research to extend human lifespan</p>
+              <div className='w-full lg:w-[933px] h-[307px] absolute top-[100px] md:top-[40%] left-0 md:-translate-y-1/2'>
+          <p className='text-[#fff] text-[34px] lg:leading-[70px] lg:text-[72px] font-medium tracking-[-3.6px] uppercase lg:tracking-[-3.6px]'>Supporting research to develop alternatives extending human longevity</p>
                   <button className='mt-10'>
-                      <Image src={btnDiscord} className='w-full' alt='btn icon discord' />
+                      <Image src={btnCommunity} className='w-full' alt='btn icon discord' />
                   </button>
               </div>
               <PartnerHome />

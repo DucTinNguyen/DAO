@@ -8,8 +8,8 @@ const OurMission = () => {
                 <section className='relative flex flex-col gap-[70px] lg:gap-0 lg:flex-row h-full justify-between'>
                     <div className='w-full lg:w-[522px] h-full'>
                         <TitleWrap title='Our mission' className='w-[250px] lg:w-[400px]' />
-                        <p className='text-[rgba(255,255,255,0.7)] text-sm lg:text-lg font-normal mt-12'>MitosisDAO&apos;s mission is to enable biological replacement parts for humans, including whole-body replacement, with the ultimate goal of radically extending the human lifespan. Replacement is an engineering approach to aging that requires fewer fundamental advances in discovery in aging/biology. <br />
-                            MitosisDAO is a BioDAO pioneering decentralized science. Read the articles below to learn more about BioDAOs and the DeSci movement.
+                        <p className='text-[rgba(255,255,255,0.7)] text-sm lg:text-lg font-normal mt-12'>MitosisDAO strives to develop replacement biological components for human bodies - from individual parts to complete systems - as an innovative path to life extension. This engineering-focused strategy minimizes reliance on breakthrough biological research. <br />
+                            As a pioneering BioDAO, MitosisDAO advances decentralized scientific research. Explore the articles below to understand BioDAOs and the DeSci movement&apos;s impact.
                         </p>
                     </div>
                     <div className='w-full lg:w-[402px] 2xl:w-[513px] h-full flex items-end font-roBoTo'>

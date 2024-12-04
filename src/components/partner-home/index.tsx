@@ -1,6 +1,6 @@
 import React from "react";
-import vita from "@icons/vita.svg";
-import cryo from "@icons/cryo.svg";
+import vita from "@icons/pumpfun.svg";
+import cryo from "@icons/raydium.svg";
 import Image from "next/image";
 const PartnerHome = () => {
   return (
@@ -9,11 +9,11 @@ const PartnerHome = () => {
         Our Partner :
       </p>
       <section className="w-full h-[60px] lg:h-[98px] bg-[#19181C] flex items-center">
-        <div className="flex-1 flex items-center justify-center">
-          <Image src={vita} alt="vita" className="w-[122px] lg:w-auto" />
+        <div className="flex-1 flex items-center justify-center gap-2">
+          <Image src={vita} alt="vita" className="w-[122px] lg:w-[200px] mix-blend-lighten" />
         </div>
         <div className="flex-1 flex items-center justify-center">
-          <Image src={cryo} alt="vita" className="w-[122px] lg:w-auto" />
+          <Image src={cryo} alt="vita" className="w-[122px] lg:w-[200px]" />
         </div>
       </section>
     </main>

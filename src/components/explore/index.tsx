@@ -11,8 +11,8 @@ const Explore = () => {
               </figure>
               <div className='flex-1 p-5 flex flex-col justify-between'>
                   <div>
-                      <p className='text-white text-2xl font-medium uppercase'>Replace old parts with young.</p>
-                      <p className='text-[rgba(255,255,255,0.70)] mt-3 text-base font-normal'>Total replacement of aged body parts with lab grown young parts. An engineering approach to solving aging.</p>
+                      <p className='text-white text-2xl font-medium uppercase'>Substitute old parts with youth.</p>
+                      <p className='text-[rgba(255,255,255,0.70)] mt-3 text-base font-normal'>Lab-grown tissue replaces aged components. Engineering solves aging through replacement.</p>
                   </div>
                   <button className='mt-5 lg:mt-0'>
                       <Image src={btnExplore} alt=''/>

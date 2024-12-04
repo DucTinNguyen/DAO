@@ -19,49 +19,49 @@ interface Project {
 
 const projectsData: Project[] = [
     {
-        title: "PROGRESSIVE BRAIN REPLACEMENT",
+        title: "Neural Regeneration",
         description: [
-            "Replacement of aging brain tissue, minimizing disruption to cognitive function and allowing gradual replacement without loss of identity or memory."
+            "Sequential replacement of aging brain tissue preserves cognitive function and identity through transition"
         ],
         img: ob1
     },
     {
-        title: "BODY TRANSPLANT PROCESS",
+        title: "Transplant Protocol",
         description: [
-            "Refine and surgical techniques for head/brain transplants.",
-            "Automation for scaling and precision."
+            "Advanced surgical methods for neural transfer",
+            "Robotic systems enable precise, scalable operations"
         ],
         img: ob2
     },
     {
-        title: "LIMB REGENERATION",
+        title: "Regenerative Engineering",
         description: [
-            "Activation of stem cells and tissue scaffolding to initiate and guide regrowth of complex tissues.",
-            "Use of growth factors, gene editing and bioelectricity to replicate regenerative capabilities similar to those found in species like axolotls."
+            "Stem cell activation and tissue scaffolds drive complex limb restoration",
+            "Gene editing and bioelectric stimulation mirror natural regeneration processes"
         ],
         img: ob3
     },
     {
-        title: "CLONED NON-SENTIENT BODIES",
+        title: "Neural Host Engineering",
         description: [
-            "Develop and test gene editing for clone neocortex knockout.",
-            "Achieve near zero false-negative knockout rate."
+            "Advanced gene editing for precise cortex suppression",
+            "Rigorous validation ensures complete neural inhibition for safe host development"
         ],
         img: ob4
     },
     {
-        title: "BIOPRINTING",
+        title: "Organ Manufacturing",
         description: [
-            "Scaled production of bioprinted organs using organ-specific bioinks.",
-            "Ensuring vascularization and functional integration within printed organs."
+            "Scale bio printed organ production with specialized tissue formulations",
+            "Engineer complete vascular networks for viable organ function"
         ],
         img: ob5
     },
     {
-        title: "XENOTRANSPLANTATION",
+        title: "Cross-Species Engineering:",
         description: [
-            "Genetic modification of donor animals to prevent rejection and enhance compatibility.",
-            "Development of protocols to induce immune tolerance in human recipients."
+            "Advanced genetic modifications optimize donor compatibility",
+            "Proprietary protocols establish sustained immune acceptance through novel tolerance pathways"
         ],
         img: ob6
     }

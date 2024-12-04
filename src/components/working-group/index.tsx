@@ -7,15 +7,15 @@ import { HoverEffect } from '../ui/card-hover-effect'
 const groups = [
     {
         title: 'Deal Flow',
-        description: 'The Deal Flow WG identifies and assesses replacement projects and assets that would be aligned with the MitosisDAOAO community objectives. Members of this WG recruit academic researchers while proposing, evaluating, and monitoring prospective projects for funding.'
+        description: 'The Deal Flow team sources and evaluates research aligned with our mission. Members recruit academics, assess proposals, and monitor funded projects to ensure strategic impact.'
     },
     {
         title: 'Operations',
-        description: 'The Operations WG supports the planning, execution, and monitoring of MitosisDAOAO&apos;s ongoing activities. Members of the operations WG oversee milestone timelines, find efficiencies, and incentivize operationally relevant tasks.'
+        description: 'Operations oversees planning and execution of core activities. The team manages timelines, optimizes processes, and creates incentives for operational excellence.'
     },
     {
         title: 'Awareness',
-        description: 'The Awareness WG focuses on elevating the profile of MitosisDAOAO through various mediums to ensure sustainable community growth. Members of the Awareness WG create strategies and content to exposMitosisDAOsDAO to new contributors and community members.'
+        description: `Awareness drives sustainable community growth through strategic communications. The team develops content and campaigns to attract new contributors while expanding MitosisDAO's reach.`
     },
 ]
 

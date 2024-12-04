@@ -9,7 +9,7 @@ import rectangle from '@icons/rectangle.svg'
 import arDownRight from '@icons/arrow-down-right.svg'
 import arUp from '@icons/ar-up.svg'
 
-const list = ['Whole body replacement via cloned or synthetic embryo with neocortex knockout for head or brain transplant.', 'Progressive brain replacement via stemcell-based tissue engineering.', 'Total replacement of aged body parts with lab-grown young parts.']
+const list = ['Body regeneration through embryo engineering: Creating host vessels with neural transplant capability.', 'Neural regeneration through stem cell engineering: Growing new brain tissue progressively.', 'Lab-grown youth replaces aging biology - complete regeneration from cells to systems']
 const Replacement = () => {
   return (
       <main className='w-full h-full lg:h-[434px] py-[40px] border-b-[1px] border-[#232226]'>
@@ -19,13 +19,15 @@ const Replacement = () => {
                   <Image src={lifeSpan} className='w-full h-full' fill alt='' />
                   <div className='flex flex-col justify-between h-[300px] lg:h-full'>
                       <div className='relative hidden lg:block'>
-                          <h3 className='text-white text-[48px] font-bold uppercase'>Replacement for</h3>
-                          <h3 className='text-white text-[48px] font-bold uppercase tracking-[-0.96px] bg-life_span leading-[56px] relative'>
-                              <Image src={vt1} alt='' className='absolute top-0 left-0' />
-                              <Image src={vt4} alt='' className='absolute top-0 right-0' />
-                              <Image src={vt2} alt='' className='absolute bottom-0 right-0' />
-                              <Image src={vt3} alt='' className='absolute bottom-0 left-0' />
-                              <span className='relative'>Lifespan Extension</span>
+                          <h3 className='text-white text-[48px] font-bold uppercase'>Longevity biotechnology</h3>
+                          <h3 className='text-white text-[48px] font-bold uppercase tracking-[-0.96px] bg-life_span leading-[56px]'>
+                              <p className='relative w-fit lg:p-2 h-full'>
+                                  by replacement
+                                  <Image src={vt1} alt='' className='absolute top-0 left-0' />
+                                  <Image src={vt4} alt='' className='absolute top-0 right-0' />
+                                  <Image src={vt2} alt='' className='absolute bottom-0 right-0' />
+                                  <Image src={vt3} alt='' className='absolute bottom-0 left-0' />
+                              </p>
                           </h3>
                       </div>
                       <div className='relative block lg:hidden'>
@@ -53,7 +55,7 @@ const Replacement = () => {
               </div>
               {/* right */}
               <div className='w-full lg:w-[585px] flex flex-col gap-6'>
-                  <h4 className='text-white text-base lg:text-xl font-normal tracking-[-1px]'>Replacement is an engineering approach to aging that requires fewer fundamental advances in discovery in aging/biology.</h4>
+                  <h4 className='text-white text-base lg:text-xl font-normal tracking-[-1px]'>Engineering replacement bypasses complex aging research, offering a direct path forward without waiting for biological breakthroughs</h4>
                   <ul className='flex flex-col gap-3'>
                       {list.map((item, index) => {
                           return <li key={index} className='flex gap-3'>

@@ -55,8 +55,8 @@ const Header = () => {
                       return <Link className={`text-[#fff] text-base font-medium h-full border-b-[2px] transition-all ease-linear duration-200 hover:border-b-[#FF7120] py-4 text-center px-4 2xl:px-10 ${item.href === pathname ? 'border-b-[#FF7120]' : 'border-b-transparent'}`} key={index} href={item.href}>{item.title}</Link>
                   })}
               </div>
-              <button className='h-full hidden lg:flex invisible lg:visible'>
-                  <Image src={btnDiscord} className='w-full h-f' alt='btn icon discord'/>
+              <button className='h-full hidden lg:flex lg:items-center invisible lg:visible'>
+                  <Image src={btnDiscord} className='w-full' alt='btn icon discord'/>
               </button>
               {/* mobile */}
               <figure className='block lg:hidden' onClick={() => { handleClick() }}>

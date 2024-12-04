@@ -37,8 +37,8 @@ const WhyDAO = () => {
                           )
                       })}
                   </ul>
-                  <p className='text-[rgba(255,255,255,0.70)] text-base font-normal mt-10'>MitosisDAO is a mission-aligned community of replacement and life extension enthusiasts and professional contributors. A large and diverse community means you benefit from access to funders, communicators, technologists, and a robust network of leading researchers, all working to advance replacement science in an open and collaborative way.</p>
-                  <p className='text-[rgba(255,255,255,0.70)] text-base font-normal mt-4'>MitosisDAO&apos;s Replacement Deal Flow Working Group works with you to ensure a swift and uncomplicated funding application process. Applications usually receive an answer within 2 weeks of submission.</p>
+                  <p className='text-[rgba(255,255,255,0.70)] text-base font-normal mt-10'>MitosisDAO&apos;s Funding Committee ensures rapid grant evaluation through our efficient review process, delivering decisions within 2 weeks of submission.</p>
+                  <p className='text-[rgba(255,255,255,0.70)] text-base font-normal mt-4'>MitosisDAO unites a diverse community of life extension experts and enthusiasts. Our network connects you with funders, communicators, technologists, and leading researchers - all collaborating to advance replacement science.</p>
               </div>
           </section>
       </main>

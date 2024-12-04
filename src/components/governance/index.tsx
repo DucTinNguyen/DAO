@@ -3,9 +3,9 @@ import { TitleDoubleWrap } from '../title'
 
 
 const phases = [
-    'Proposals begin as rough drafts on Discord. Ideas are discussed and debated by DAO members, expanding on the draft. Any verified MITOSIS token holders can create a draft proposal.',
-    'Proposals begin as rough drafts on Discord. Ideas are discussed and debated by DAO members, expanding on the draft. Any verified MITOSIS token holders can create a draft proposal.',
-    'Proposals are automatically posted on Snapshot if they pass the Phase II temperature check. This happens in batches every 14 days. Token holders are then allowed to vote on proposals for a total of 7 days.'
+    'Project proposals start as drafts in Website. Verified token holders collaborate to refine ideas through community discussion before formal submission.',
+    'Proposals follow a standardized template for formal review. A 4-day temperature check by verified token holders determines advancement to final voting.',
+    'Passing temperature check moves proposals to Snapshot voting. Batches processed every 14 days, with 7-day voting period for token holders.'
 ]
 
 const DaoGovernance = () => {
