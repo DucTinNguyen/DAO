@@ -55,9 +55,11 @@ const Header = () => {
                       return <Link className={`text-[#fff] text-base font-medium h-full border-b-[2px] transition-all ease-linear duration-200 hover:border-b-[#FF7120] py-4 text-center px-4 2xl:px-10 ${item.href === pathname ? 'border-b-[#FF7120]' : 'border-b-transparent'}`} key={index} href={item.href}>{item.title}</Link>
                   })}
               </div>
-              <button className='h-full hidden lg:flex lg:items-center invisible lg:visible'>
-                  <Image src={btnDiscord} className='w-full' alt='btn icon discord'/>
-              </button>
+              <Link href={'https://app.uniswap.org/swap?outputCurrency=0xb1D17eCAdbdae9CA84f40b26eB11F2905903b993&chain=ethereum'} target='_blank'>
+                  <button className='h-full hidden lg:flex lg:items-center invisible lg:visible'>
+                      <Image src={btnDiscord} className='w-full' alt='btn icon discord' />
+                  </button>
+              </Link>
               {/* mobile */}
               <figure className='block lg:hidden' onClick={() => { handleClick() }}>
                   {!isOpen ? <Image src={icHamburger} alt=''/> : <Image src={icClose} alt=''/>}

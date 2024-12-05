@@ -30,10 +30,10 @@ const footerData: FooterSection[] = [
     {
         title: "INFO",
         links: [
-            { title: "Etherscan", href: "#" },
-            { title: "Dexscreener", href: "#" },
-            { title: "Dextools", href: "#" },
-            { title: "Buy", href: "#" },
+            { title: "Etherscan", href: "https://etherscan.io/address/0xb1D17eCAdbdae9CA84f40b26eB11F2905903b993" },
+            { title: "Dexscreener", href: "https://dexscreener.com/ethereum/0x80f5343a3e5c18b4e9872d04f3046fda2e0f2c83" },
+            { title: "Dextools", href: "https://www.dextools.io/app/en/ether/pair-explorer/0x80f5343a3e5c18b4e9872d04f3046fda2e0f2c83?t=1733414899125" },
+            { title: "Buy", href: "https://app.uniswap.org/swap?outputCurrency=0xb1D17eCAdbdae9CA84f40b26eB11F2905903b993&chain=ethereum" },
         ]
     },
     {
@@ -95,7 +95,7 @@ const FooterLink: React.FC<FooterLink> = ({ title, href, external }) => {
     }
 
     return (
-        <Link href={href} className={linkClasses}>
+        <Link href={href} target='_blank' className={linkClasses}>
             <span>{title}</span>
         </Link>
     );
