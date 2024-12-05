@@ -10,10 +10,10 @@ const PartnerHome = () => {
       </p>
       <section className="w-full h-[60px] lg:h-[98px] bg-[#19181C] flex items-center">
         <div className="flex-1 flex items-end justify-center gap-2">
-          <Image src={bio} alt="vita" className="w-[100px] lg:w-[180px]" />
+          <Image src={bio} alt="vita" className="w-[150px] lg:w-[250px]" />
         </div>
         <div className="flex-1 flex items-start justify-center">
-          <Image src={uniswap} alt="vita" className="w-[132px] lg:w-[250px]" />
+          <Image src={uniswap} alt="vita" className="w-[150px] lg:w-[250px]" />
         </div>
       </section>
     </main>
