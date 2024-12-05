@@ -14,11 +14,10 @@ const BannerProject = () => {
           />
           <div className="lg:w-[640px] w-full h-full flex flex-col justify-between">
             <p className="text-[rgba(255,255,255,0.70)] text-sm lg:text-lg font-normal">
-              MitosisDAOAO is a BioDAO funding research in tissue, organ, and
-              whole-body replacement. Funds raised bMitosisDAOsDAO are used to
-              advance promising replacement research projects. If you have a
-              project in the field of replacement and would like to apply for
-              funding, please submit a proposal.
+              MitosisDAO is a decentralized research fund advancing tissue and organ replacement technology. We finance promising projects in regenerative medicine. <br/>
+            </p>
+            <p className="text-[rgba(255,255,255,0.70)] text-sm lg:text-lg font-normal mt-5">
+              Submit your proposal for consideration if your research aligns with our mission.
             </p>
             <button className="mt-10 lg:mt-5 md:mx-auto lg:mx-0">
               <Image src={btnSubmit} alt="" />
