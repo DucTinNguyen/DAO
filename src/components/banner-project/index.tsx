@@ -20,7 +20,7 @@ const BannerProject = () => {
               project in the field of replacement and would like to apply for
               funding, please submit a proposal.
             </p>
-            <button className="mt-10 lg:mt-0 md:mx-auto lg:mx-0">
+            <button className="mt-10 lg:mt-5 md:mx-auto lg:mx-0">
               <Image src={btnSubmit} alt="" />
             </button>
           </div>

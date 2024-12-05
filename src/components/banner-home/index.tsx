@@ -23,7 +23,7 @@ const BannerHomePage = () => {
             longevity
           </p>
           <Link href={"https://t.me/MitosisDAO"} target="_blank">
-            <button className="mt-10">
+            <button className="lg:mt-10">
               <Image
                 src={btnCommunity}
                 className="w-full"

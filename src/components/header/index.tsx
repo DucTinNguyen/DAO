@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import icLogo from '@icons/logoApp.svg'
 import Image from 'next/image'
 import Link from 'next/link';
-import btnDiscord from '@icons/btn-discord.svg'
+import btnDiscord from '@icons/buynow.svg'
 import { usePathname, useRouter } from 'next/navigation';
 import icHamburger from '@icons/icBar.svg'
 import arrow from '@icons/arrow.svg'

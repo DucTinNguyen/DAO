@@ -30,11 +30,10 @@ const footerData: FooterSection[] = [
     {
         title: "INFO",
         links: [
-            { title: "Token", href: "#" },
-            { title: "PUMP.FUN", href: "#" },
-            { title: "DEXSCREENER", href: "#" },
-            { title: "SOLSCAN", href: "#" },
-            { title: "BUY", href: "#" },
+            { title: "Etherscan", href: "#" },
+            { title: "Dexscreener", href: "#" },
+            { title: "Dextools", href: "#" },
+            { title: "Buy", href: "#" },
         ]
     },
     {
